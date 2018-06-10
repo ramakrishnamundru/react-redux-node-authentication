@@ -6,22 +6,23 @@ Project is separated into:
 
 ### How to run
 
-1. Install live server: npm install -g live-server 
-2. Install mongodb - on macos: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x
-3. Use correct version of node - tested on node 9.0.0 - can be easily done with https://github.com/creationix/nvm
+1. Install mongodb: https://www.mongodb.com/download-center?jmp=nav#community
+2. Use correct version of node - tested on node 9.0.0 - can be easily done with https://github.com/creationix/nvm
 
 Go to front folder and run:
 ```sh
 $ npm install
 $ npm run build
+$ npm run serve
 ```
 
-Go to dist folder and run:
-```
-$ live-server --entry-file=index.js //in next console tab
-```
+Go to api folder:
+copy or rename config/config.example.js as config/config.js
 
-Go to api folder and run:
+```sh
+cp config/config.example.js config/config.js
+```
+and run:
 ```sh
 $ npm install
 $ npm run dev
@@ -37,4 +38,3 @@ configure application with docker
 
 ### Demo application:
 https://guarded-sea-39932.herokuapp.com/#/
-

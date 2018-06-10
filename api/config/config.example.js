@@ -1,5 +1,6 @@
 module.exports = {
     'secret': 'kris',
-    'delay': 1, // used on local env to delay response just for simulations
+    'jwtExpiry': '100m',
+    'saltRounds': 13,
     'database': 'mongodb://localhost:27017/test'
-};
+}

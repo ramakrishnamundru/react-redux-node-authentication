@@ -1,6 +1,6 @@
 api/node_modules
 front/node_modules
-api/config/config.js.dist
+api/config/config.js
 front/src/utils/config.js.dist
 front/dist/*.js
 .idea
